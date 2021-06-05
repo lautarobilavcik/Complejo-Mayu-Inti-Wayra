@@ -1,0 +1,58 @@
+
+
+body{
+background: rgb(2,0,36);
+background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,108,9,0.7259278711484594) 35%, rgba(0,212,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,108,9,0.7259278711484594) 35%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,108,9,0.7259278711484594) 35%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
+
+#slider{
+  overflow: hidden;
+  
+  
+}
+#slider figure {
+
+  position: relative;
+  margin: 0px;
+  width: 250%;
+  left: 0;
+  animation: 50s slider alternate-reverse;
+}
+
+#slider figure img {
+  width: 20%;
+  float: left;
+  margin: 5px;
+  border: 1px;
+  border-radius: 2px;
+  padding: 5;
+}
+
+@keyframes slider {
+  0%{
+    left:0%;
+  }
+  20%{
+    left:10%;
+  }
+  40%{
+    left:-30%;
+  }
+  60% {
+    left:-80%;
+  }
+  80%{
+    left:-120%;
+  }
+  85% {
+    left:-160%;
+      }
+ 
+ 
+
+
+}
+
